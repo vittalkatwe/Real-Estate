@@ -1,0 +1,207 @@
+.frame-child {
+  height: 256px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--anti-flash-white);
+  display: none;
+  max-width: 100%;
+}
+.feature-icon,
+.feature-one1 {
+  position: relative;
+  flex-shrink: 0;
+}
+.feature-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: var(--black);
+}
+.feature-one1 {
+  align-self: stretch;
+  line-height: 28px;
+}
+.feature-content,
+.title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.feature-content {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  min-width: 191px;
+}
+.title {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.all-base-ui {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+.feature-one {
+  flex: 1;
+  background-color: var(--anti-flash-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  min-width: 255px;
+  max-width: 100%;
+  z-index: 1;
+}
+.feature-one3,
+.title-child {
+  position: relative;
+  flex-shrink: 0;
+}
+.title-child {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: var(--black);
+}
+.feature-one3 {
+  align-self: stretch;
+  line-height: 28px;
+}
+.feature-one-wrapper,
+.title1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.feature-one-wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  min-width: 191px;
+}
+.title1 {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.all-base-ui1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+.feature-one2 {
+  flex: 1;
+  background-color: var(--anti-flash-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  min-width: 255px;
+  max-width: 100%;
+  z-index: 1;
+}
+.feature-one5,
+.title-item {
+  position: relative;
+  flex-shrink: 0;
+}
+.title-item {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: var(--black);
+}
+.feature-one5 {
+  align-self: stretch;
+  line-height: 28px;
+}
+.feature-one-container,
+.title2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.feature-one-container {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  min-width: 191px;
+}
+.title2 {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.all-base-ui2 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+.feature-one4,
+.rectangle-parent {
+  background-color: var(--anti-flash-white);
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.feature-one4 {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  min-width: 255px;
+  z-index: 1;
+}
+.rectangle-parent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: var(--padding-45xl) var(--padding-144xl) var(--padding-45xl)
+    var(--padding-146xl);
+  box-sizing: border-box;
+  gap: var(--gap-27xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .rectangle-parent {
+    gap: var(--gap-4xl);
+    padding-left: var(--padding-63xl);
+    padding-right: var(--padding-62xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .title,
+  .title1,
+  .title2 {
+    flex-wrap: wrap;
+  }
+  .rectangle-parent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
